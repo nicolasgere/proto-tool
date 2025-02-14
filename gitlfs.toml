@@ -4,21 +4,17 @@ type = "cli"
 [platform.linux]
 download-file = "git-lfs-linux-{arch}-v{version}.tar.gz"
 bin-path = "git-lfs"
-checksum-file = "git-lfs-linux-{arch}-v{version}.tar.gz.sha256"
 
 [platform.macos]
 download-file = "git-lfs-darwin-{arch}-v{version}.zip"
 bin-path = "git-lfs"
-checksum-file = "git-lfs-darwin-{arch}-v{version}.zip.sha256"
 
 [platform.windows]
 download-file = "git-lfs-windows-{arch}-v{version}.zip"
 bin-path = "git-lfs.exe"
-checksum-file = "git-lfs-windows-{arch}-v{version}.zip.sha256"
 
 [install]
 download-url = "https://github.com/git-lfs/git-lfs/releases/download/v{version}/{download_file}"
-checksum-url = "https://github.com/git-lfs/git-lfs/releases/download/v{version}/{checksum_file}"
 unpack = true
 
 [install.arch]
