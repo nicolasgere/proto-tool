@@ -3,15 +3,15 @@ type = "cli"
 
 [platform.linux]
 download-file = "git-lfs-linux-{arch}-v{version}.tar.gz"
-bin-path = "git-lfs"
+bin-path = "git-lfs-{version}/git-lfs"
 
 [platform.macos]
 download-file = "git-lfs-darwin-{arch}-v{version}.zip"
-bin-path = "git-lfs"
+bin-path = "git-lfs-{version}/git-lfs"
 
 [platform.windows]
 download-file = "git-lfs-windows-{arch}-v{version}.zip"
-bin-path = "git-lfs.exe"
+bin-path = "git-lfs-{version}/git-lfs.exe"
 
 [install]
 download-url = "https://github.com/git-lfs/git-lfs/releases/download/v{version}/{download_file}"

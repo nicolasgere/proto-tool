@@ -1,0 +1,27 @@
+name = "protoc-gen-lint"
+type = "cli"
+
+[platform.linux]
+download-file = "protoc-gen-lint_linux_{arch}.zip"
+bin-path = "protoc-gen-lint"
+
+[platform.macos]
+download-file = "protoc-gen-lint_darwin_{arch}.zip"
+bin-path = "protoc-gen-lint"
+
+[platform.windows]
+download-file = "protoc-gen-lint_windows_{arch}.zip"
+bin-path = "protoc-gen-lint.exe"
+
+[install]
+download-url = "https://github.com/ckaznocha/protoc-gen-lint/releases/download/v{version}/{download_file}"
+unpack = true
+
+[install.arch]
+aarch64 = "arm64"
+arm = "arm"
+x86 = "386"
+x86_64 = "amd64"
+
+[resolve]
+git-url = "https://github.com/ckaznocha/protoc-gen-lint"
