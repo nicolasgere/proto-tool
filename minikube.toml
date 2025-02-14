@@ -26,3 +26,6 @@ aarch64 = "arm64"
 arm = "arm"
 x86 = "386"
 x86_64 = "amd64"
+
+[resolve]
+git-url = "https://github.com/kubernetes/minikube"
