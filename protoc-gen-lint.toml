@@ -14,7 +14,7 @@ download-file = "protoc-gen-lint_windows_{arch}.zip"
 bin-path = "protoc-gen-lint.exe"
 
 [install]
-download-url = "https://github.com/ckaznocha/protoc-gen-lint/releases/download/v{version}/{download_file}"
+download-url = "https://github.com/moward/protoc-gen-lint/releases/download/v{version}/{download_file}"
 unpack = true
 
 [install.arch]
@@ -24,4 +24,4 @@ x86 = "386"
 x86_64 = "amd64"
 
 [resolve]
-git-url = "https://github.com/ckaznocha/protoc-gen-lint"
+git-url = "https://github.com/moward/protoc-gen-lint"
