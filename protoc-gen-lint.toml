@@ -3,15 +3,15 @@ type = "cli"
 
 [platform.linux]
 download-file = "protoc-gen-gapi-lint_{version}_linux_{arch}.tar.gz"
-bin-path = "protoc-gen-lint"
+bin-path = "protoc-gen-gapi-lint"
 
 [platform.macos]
 download-file = "protoc-gen-gapi-lint_{version}_darwin_{arch}.tar.gz"
-bin-path = "protoc-gen-lint"
+bin-path = "protoc-gen-gapi-lint"
 
 [platform.windows]
 download-file = "protoc-gen-gapi-lint_{version}_windows_{arch}.tar.gz"
-bin-path = "protoc-gen-lint.exe"
+bin-path = "protoc-gen-gapi-lint.exe"
 
 [install]
 download-url = "https://github.com/moward/protoc-gen-gapi-lint/releases/download/v{version}/{download_file}"
