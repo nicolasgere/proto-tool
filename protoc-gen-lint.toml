@@ -2,15 +2,15 @@ name = "protoc-gen-lint"
 type = "cli"
 
 [platform.linux]
-download-file = "protoc-gen-lint_linux_{arch}.zip"
+download-file = "protoc-gen-gapi-lint_{version}_{arch}.tar.gz"
 bin-path = "protoc-gen-lint"
 
 [platform.macos]
-download-file = "protoc-gen-lint_darwin_{arch}.zip"
+download-file = "protoc-gen-gapi-lint_{version}_{arch}.tar.gz"
 bin-path = "protoc-gen-lint"
 
 [platform.windows]
-download-file = "protoc-gen-lint_windows_{arch}.zip"
+download-file = "protoc-gen-gapi-lint_{version}_{arch}.tar.gz"
 bin-path = "protoc-gen-lint.exe"
 
 [install]
