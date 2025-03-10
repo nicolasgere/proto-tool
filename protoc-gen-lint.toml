@@ -1,4 +1,4 @@
-name = "protoc-gen-lint"
+name = "protoc-gen-gapi-lint"
 type = "cli"
 
 [platform.linux]
